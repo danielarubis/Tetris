@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body{
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 2em;
+  text-align: center;
+  background-image: url('../img/thumb-1920-239007.jpg');
+  background-size: cover;
+}
+
+.title{
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 5px 5px rgba(255,255,255,0.5);
+}
+
+.body{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.positions-right{
+  text-align: center;
+  margin-right: 50px;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+canvas#tetris{
+  border: solid .2em #fff;
+  border-radius: 2px;
+  height: 70vh;
+}
+
+.cajas_lateral{
+  border: solid .2em #fff;
+  margin-bottom: 20px;
+  max-width: 200px;
+  background-color: #000;
+  font-size: 1em;
+}
+
+canvas#nextPiece{
+  width: 90%;
+}
